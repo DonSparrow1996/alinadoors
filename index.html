@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1" />
+	<link rel="stylesheet" href="css/all.css" type="text/css"/>
+	<link rel="stylesheet" href="css/fonts.css" type="text/css"/>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick_changes.css"/>
+	<script type="text/javascript" src="js/main.js"></script>
+	<title>ALINADOORS</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="form_around">
+			<div class="form_block">
+				<a href="#" class="form_close">+</a>
+				<h2 class="form_title">Purchase form</h2>
+				<form class="main_form">
+					<div class="form_top">
+						<div class="form_count">
+							<h3 class="form_count_title">White door</h3>
+							<button class="form_bin" type="reset"></button>
+							<div class="form_doors_count">
+								<button type="button" class="count_less">-</button>
+								<input class="doors_count_input" type="number" name="doors_count">
+								<button type="button" class="count_more">+</button>
+							</div>
+						</div>
+						<h2 class="form_price"><span class="form_total_price"></span></h2>
+					</div>
+					<div class="user_data">
+						<h3 class="user_data_title">First name<span>*</span></h3>
+						<input class="user_data_input" type="text" placeholder="Enter first name" name="first_name">
+					</div>
+					<div class="user_data">
+						<h3 class="user_data_title">Last name<span>*</span></h3>
+						<input class="user_data_input" type="text" placeholder="Enter last name" name="last_name">
+					</div>
+					<div class="user_data">
+						<h3 class="user_data_title">Phone number<span>*</span></h3>
+						<input class="user_data_input" type="text" placeholder="Enter phone number" name="phone_number">
+					</div>
+					<div class="user_data">
+						<h3 class="user_data_title">E-mail</h3>
+						<input class="user_data_input" type="text" placeholder="Enter e-mail" name="email">
+					</div>
+					<div class="form_consent">
+						<input class="form_consent_checkbox" type="checkbox">
+						<p class="form_consent_text">I consent to data processing</p>
+					</div>
+					<button class="form_order_button" type="submit">ORDER NOW</button>
+				</form>
+			</div>
+		</div>
+		<header class="homepage_header">
+			<div class="head header_head">
+				<a href="#" class="logo">
+					<img alt="logo" src="./images/logo-black.png">
+				</a>
+				<nav class="header_nav">
+					<ul class="menu header_menu">
+						<li><a data-target=".benefits" href="#">Advantages</a></li>
+						<li><a data-target=".aboutUs" href="#">About Us</a></li>
+						<li><a data-target=".doors" href="#">Doors</a></li>
+						<li><a data-target=".reviews" href="#">Reviews</a></li>
+						<li><a data-target=".gallery" href="#">Gallery</a></li>
+						<li><a data-target=".faq" href="#">FAQ</a></li>
+						<li><a data-target=".contacts" href="#">Contacts</a></li>
+					</ul>
+					<a class="close_burger">+</a>
+				</nav>
+				<a class="phone_number" href="tel:0151 205 0694"><img alt="call" class="call_icon" src="./images/call-black.svg"> 0151 205 0694</a>
+				<div class="burger">
+					<div class="burger_decor"></div>
+					<div class="burger_decor"></div>
+					<div class="burger_decor"></div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="top_banner">
+				<div class="top_banner_inside">
+					<div class="main_top">
+						<div class="head main_head">
+							<a href="#" class="logo">
+								<img alt="logo" src="./images/logo.png">
+							</a>
+							<nav class="main_nav">
+								<ul class="menu main_menu">
+									<li class="burger_logo"><img src="./images/logo-black.png"></li>
+									<li><a data-target=".benefits" href="#">Advantages</a></li>
+									<li><a data-target=".aboutUs" href="#">About Us</a></li>
+									<li><a data-target=".doors" href="#">Doors</a></li>
+									<li><a data-target=".reviews" href="#">Reviews</a></li>
+									<li><a data-target=".gallery" href="#">Gallery</a></li>
+									<li><a data-target=".faq" href="#">FAQ</a></li>
+									<li><a data-target=".contacts" href="#">Contacts</a></li>
+									<li class="burger_social_around">
+										<div class="burger_social">
+											<a href="https://www.ebay.co.uk/usr/alinadoors" class="burger_ebay">
+												<img src="./images/footer_black_ebay.svg">
+											</a><!--
+										---><a href="https://www.facebook.com/profile.php?id=61573492715128" class="burger_fb">
+												<img src="./images/footer_black_fb.svg">
+											</a><!--
+										---><a href="https://www.instagram.com/alinadoors.com.limited/" class="burger_inst">
+												<img src="./images/footer_black_inst.svg">
+											</a><!--
+										---><a href="https://www.threads.com/@alinadoors.com.limited" class="burger_threads">
+												<img src="./images/footer_black_threads.svg">
+											</a>
+										</div>
+									</li>
+								</ul>
+								<p class="close_burger">+</p>
+							</nav>
+							<a class="phone_number" href="#"><img alt="call" class="call_icon" src="./images/call.svg"> 0151 205 0694</a>
+							<div class="burger">
+								<div class="burger_decor"></div>
+								<div class="burger_decor"></div>
+								<div class="burger_decor"></div>
+							</div>
+						</div>
+					</div>
+					<div class="main_banner_content">
+						<h4 class="main_banner_name">ALINADOORS.COM</h4>
+						<h1>High-quality, reliable doors</h1>
+						<h3 class="banner_subtitle">for your home or business.</h3>
+						<a class="choise_model" data-target=".doors" href="#">CHOOSE A MODEL</a>
+					</div>
+					<div class="main_door">
+						<img alt="door" src="./images/white-door.png">
+						<img alt="door" src="./images/black-door.png">
+					</div>
+				</div>
+				<div class="main_scroll_around">
+					<div class="main_scroll">
+						<a data-target=".doors" class="main_scroll_double_arrow" href="#">
+							<img alt="arrow" src="./images/double_arrow_down.svg">
+						</a>
+					</div>
+				</div>
+			</section>
+			<section class="benefits">
+				<div class="benefits_inside">
+					<h2 class="benefits_title">Why choose our doors?</h2>
+					<div class="benefits_content">
+						<div class="ben_1">
+							<p class="ben1_text">With over 10 years of experience in the construction industry</p>
+							<img alt="logo" class="benefits_logo" src="./images/logo.png">
+							<img alt="decor" class="benefit_decor" src="./images/benefit_decor.png">
+						</div>
+						<div class="ben_2_3_4">
+							<div class="ben_2 middle_ben">
+								<img alt="box" class="box ben_2_box" src="./images/lock.svg">
+								<div class="ben2_text ben_middle_text_block">
+									<h3 class="ben_middle_title">Ready-to-install sets</h3>
+									<p class="ben_middle_text">Doors come complete with hardware, frame, and locks.</p>
+								</div>
+							</div>
+							<div class="ben_3 middle_ben">
+								<img alt="box" class="box ben_3_box" src="./images/vector-open-door.svg">
+								<div class="ben3_text ben_middle_text_block">
+									<h3 class="ben_middle_title">Reliable materials</h3>
+									<p class="ben_middle_text">Turkish quality — steel and composite construction.</p>
+								</div>
+							</div>
+							<div class="ben_4 middle_ben">
+								<img alt="box" class="box ben_4_box" src="./images/pencill.svg">
+								<div class="ben4_text ben_middle_text_block">
+									<h3 class="ben_middle_title">Modern design</h3>
+									<p class="ben_middle_text">Clean lines and stylish finishes.</p>
+								</div>
+							</div>
+						</div>
+						<div class="ben_5">
+							<p class="ben5_text">We work with everyone — from private customers to industry professionals</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="aboutUs">
+				<div class="aboutUs_inside">
+					<div class="aboutUs_left"></div>
+					<div class="aboutUs_right">
+						<h2 class="aboutUs_title">About us</h2>
+						<p class="aboutUs_text">AlinaDoors is a Liverpool-based company with over a decade of experience in the construction industry.<br>We specialize in high-quality internal and external doors that combine functionality, reliability, and modern style.</p>
+					</div>
+					<div class="aboutUs_more">
+						<h3 class="aboutUs_more_title">Our mission</h3>
+						<p class="aboutUs_text aboutUs_more_text">To offer doors that not only look great but are built to last. We operate on a self-pickup model — place your order online and collect it at your convenience by appointment.</p>
+					</div>
+				</div>
+			</section>
+			<section class="doors">
+				<div class="doors_inside">
+					<h2 class="doors_title">Our doors</h2>
+					<div class="door doors_white">
+						<div class="door_naration">
+							<h3 class="door_naration_title">White door</h3>
+							<div class="order">
+								<a class="order_now" href="#">ORDER NOW</a>
+								<div class="order_price">
+									<p class="price_title">Price</p>
+									<p class="price_sum">£<span class="money_price">398</span>.00 <span class="price_sum_vat">(VAT included)</span></p>
+								</div>
+							</div>
+							<h3 class="specifications_title">Specifications:</h3>
+							<ul class="specifications">
+								<li class="specification">
+									<p class="property">Size:</p>
+									<div class="value_container">
+										<p class="value">200×80×3.8 cm</p>
+									</div>
+								</li>
+								<li class="specification">
+									<p class="property">Material:</p>
+									<div class="value_container">
+										<p class="value">Composite</p>
+									</div>
+								</li>
+								<li class="specification more_values">
+									<p class="property">Features:</p>
+									<div class="value_container">
+										<p class="value">Universal opening (left/right)</p>
+										<p class="value">Ready to install</p>
+										<p class="value">Modern minimalist design</p>
+									</div>
+								</li>
+								<li class="specification">
+									<p class="property">Manufactured in:</p>
+									<div class="value_container">
+										<p class="value">Türkiye</p>
+									</div>
+								</li>
+								<li class="specification more_values last_specification_element">
+									<p class="property">Set Includes:</p>
+									<div class="value_container">
+										<p class="value">Door</p>
+										<p class="value">Handle</p>
+										<p class="value">Lock</p>
+										<p class="value">Hinges</p>
+										<p class="value">Frame</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="doors_photos">
+							<ul class="photo_all">
+								<li class="one_photo photo_1 active">
+									<img alt="photo" src="./images/white-photo-1.png">
+								</li>
+								<li class="one_photo photo_2">
+									<img alt="photo" src="./images/white-photo-2.jpg">
+								</li>
+								<li class="one_photo photo_3">
+									<img alt="photo" src="./images/white-photo-3.jpg">
+								</li>
+								<li class="one_photo photo_4">
+									<img alt="photo" src="./images/white-photo-4.jpg">
+								</li>
+								<li class="one_photo photo_5">
+									<img alt="photo" src="./images/white-photo-5.jpg">
+								</li>
+							</ul>
+							<div class="photo_control_panel">
+								<div class="photo_control_panel_inside">
+									<p class="photo_text"><span class="photo_index">01</span><span class="photo_count">/05</span><span class="door_name">WHITE DOOR</span></p>
+									<div class="photo_control_pannel_arrows">
+										<img alt="arrow" class="control_arrow_previous control_arrow" src="./images/chevron_right.svg">
+										<img alt="arrow" class="control_arrow_next control_arrow" src="./images/chevron_right.svg">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="door doors_flat">
+						<div class="doors_photos">
+							<div class="one_photo flat_door_photo active">
+								<img alt="door" src="./images/black-door.png">
+							</div>
+						</div>
+						<div class="door_naration">
+							<h3 class="door_naration_title">Flat entrance steel door</h3>
+							<div class="order">
+								<a class="order_now" href="#">ORDER NOW</a>
+								<div class="order_price">
+									<p class="price_title">Price</p>
+									<p class="price_sum">Price on request</p>
+								</div>
+							</div>
+							<h3 class="specifications_title">Specifications:</h3>
+							<ul class="specifications">
+								<li class="specification">
+									<p class="property">Size:</p>
+									<div class="value_container">
+										<p class="value">Width: 90–105 cm / Height: 200–210 cm</p>
+									</div>
+								</li>
+								<li class="specification">
+									<p class="property">Type:</p>
+									<div class="value_container">
+										<p class="value">Steel</p>
+									</div>
+								</li>
+								<li class="specification more_values last_specification_element">
+									<p class="property">Features:</p>
+									<div class="value_container">
+										<p class="value">Steel thickness: 1.5 mm</p>
+										<p class="value">Thermal and acoustic insulation</p>
+										<p class="value">Anthracite frame</p>
+										<p class="value">Chrome-plated rosette</p>
+										<p class="value">Spyhole</p>
+										<p class="value">Sealing gaskets</p>
+										<p class="value">Hidden security system</p>
+										<p class="value">Universal opening (left/right)</p>
+										<p class="value">Custom manufacturing available</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="reviews">
+				<h2 class="reviews_title">Reviews</h2>
+				<div class="reviews_slider">
+					<div class="reviews_slide">
+						<img alt="review" src="./images/gallery_1.jpg">
+					</div>
+					<div class="reviews_slide">
+						<img alt="review" src="./images/gallery_2.jpg">
+					</div>
+					<div class="reviews_slide">
+						<img alt="review" src="./images/gallery_3.jpg">
+					</div>
+					<div class="reviews_slide">
+						<img alt="review" src="./images/gallery_4.jpg">
+					</div>
+					<div class="reviews_slide">
+						<img alt="review" src="./images/gallery_5.jpg">
+					</div>
+				</div>
+			</section>
+			<section class="gallery">
+				<h2 class="gallery_title">Gallery</h2>
+				<div class="gallery_slider">
+					<div class="gallery_slide">
+						<img alt="review" src="./images/gallery_1.jpg">
+					</div>
+					<div class="gallery_slide">
+						<img alt="review" src="./images/gallery_2.jpg">
+					</div>
+					<div class="gallery_slide">
+						<img alt="review" src="./images/gallery_3.jpg">
+					</div>
+					<div class="gallery_slide">
+						<img alt="review" src="./images/gallery_4.jpg">
+					</div>
+					<div class="gallery_slide">
+						<img alt="review" src="./images/gallery_5.jpg">
+					</div>
+				</div>
+			</section>
+			<section class="faq">
+				<div class="faq_inside">
+					<h2 class="faq_title">FAQ</h2>
+					<ul class="faq_accordion">
+						<li>
+							<div class="accordion-header" id="one-head">
+								<img class="accord_question" alt="question" src="./images/accord_question.svg">
+								<p>Do you deliver the doors?</p>
+								<img class="accord_arrow" alt="plus" src="./images/accord_plus.svg">
+							</div>
+							<div class="accordion-body" id="one">
+								<p>No, we offer self-pickup only from our location in Liverpool.</p>
+							</div>
+							<div class="accord_line"></div>
+						</li>
+						<li>
+							<div class="accordion-header" id="two-head">
+								<img class="accord_question" alt="question" src="./images/accord_question.svg">
+								<p>Are the internal doors ready to install?</p>
+								<img class="accord_arrow" alt="plus" src="./images/accord_plus.svg">
+							</div>
+							<div class="accordion-body" id="two">
+								<p>All our doors are pre-finished and installation-ready.</p>
+							</div>
+							<div class="accord_line"></div>
+						</li>
+						<li>
+							<div class="accordion-header" id="three-head">
+								<img class="accord_question" alt="question" src="./images/accord_question.svg">
+								<p>Can I visit your store?</p>
+								<img class="accord_arrow" alt="plus" src="./images/accord_plus.svg">
+							</div>
+							<div class="accordion-body" id="three">
+								<p>The store is open on a strictly pre-arranged appointment basis. Please kindly call to make an appointment.</p>
+							</div>
+							<div class="accord_line"></div>
+						</li>
+						<li>
+							<div class="accordion-header" id="four-head">
+								<img class="accord_question" alt="question" src="./images/accord_question.svg">
+								<p>Do you work with trade clients?</p>
+								<img class="accord_arrow" alt="plus" src="./images/accord_plus.svg">
+							</div>
+							<div class="accordion-body" id="four">
+								<p>We proudly work with both trade professionals and private customers.</p>
+							</div>
+							<div class="accord_line"></div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="contacts">
+				<div class="contacts_inside">
+					<h2 class="contacts_title">Contact us</h2>
+					<h3 class="contacts_subtitle">Need help choosing the right door or have a question? Our team is ready to assist!</h3>
+					<div class="contacts_info">
+						<div class="contacts_info_left">
+							<div class="contacts_email contact">
+								<img src="./images/contacts_mail.svg">
+								<h3 class="contacts_mail_title contact_title">Email:</h3>
+								<a class="contacts_mail_link contact_link" href="mailto:info@alinadoors.com">info@alinadoors.com</a>
+							</div>
+							<div class="contacts_phone contact">
+								<img src="./images/contacts_phone.svg">
+								<div class="contact_title_around">
+									<div class="contact_info">
+										<h3 class="contacts_phone_title contact_title">Phone:</h3>
+										<a class="contacts_phone_link contact_link" href="tel:0151 205 0694">0151 205 0694</a>
+									</div>
+									<p class="contacts_phone_subtitle contact_subtitle">(Mon–Fri, 9:00 AM – 5:00 PM)</p>
+								</div>
+							</div>
+							<div class="contacts_address contact">
+								<img src="./images/contacts_geo.svg">
+								<div class="contact_title_around">
+									<h3 class="contacts_address_title contact_title">Address:</h3>
+									<p class="contacts_address_link contact_link">AlinaDoors.com<br>9A York Street, Liverpool, L1 5BN, United Kingdom</p>
+									<p class="contacts_address_subtitle contact_subtitle">(Visits by appointment only)</p>
+								</div>
+							</div>
+						</div>
+						<div class="contacts_info_right">
+							<div class="contacts_insta contact">
+								<img src="./images/contacts_insta.svg">
+								<h3 class="contacts_insta_title contact_title">Instagram:</h3>
+								<a class="contacts_insta_link contact_link" href="https://www.instagram.com/alinadoors.com.limited/">@alinadoors.com.limited</a>
+							</div>
+							<div class="contacts_threads contact">
+								<img src="./images/contacts_threads.svg">
+								<h3 class="contacts_threads_title contact_title">Threads:</h3>
+								<a class="contacts_threads_link contact_link" href="https://www.threads.com/@alinadoors.com.limited">@alinadoors.com.limited</a>
+							</div>
+							<div class="contacts_fb contact">
+								<img src="./images/contacts_fb.svg">
+								<h3 class="contacts_fb_title contact_title">Facebook:</h3>
+								<a class="contacts_fb_link contact_link" href="https://www.facebook.com/profile.php?id=61573492715128">Alina Doors on Facebook</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer_top">
+				<div class="footer_top_1">
+					<h3 class="footer_top_1_title footer_title">About Me</h3>
+					<div class="footer_top_1_info footer_top_info">
+						<p class="footer_top_info_text">Alinadoors.com Limited specialize in premium-quality doors designed to elevate the beauty, security, and functionality of your home or business.</p>
+					</div>
+					<p class="footer_top_other">VAT No: 483 9852 34</p>
+				</div>
+				<div class="footer_top_2">
+					<h3 class="footer_top_2_title footer_title">Address</h3>
+					<div class="footer_top_2_info footer_top_info">
+						<p class="footer_top_info_text">Alinadoors.com</p>
+						<p class="footer_top_info_text">LTD 9A York Street</p>
+						<p class="footer_top_info_text">Liverpool</p>
+						<p class="footer_top_info_text">L1 5BN</p>
+					</div>
+				</div>
+				<div class="footer_top_3">
+					<h3 class="footer_top_3_title footer_title">Contact Details</h3>
+					<div class="footer_top_3_info footer_top_info">
+						<a href="tel:07360 025504" class="footer_top_info_text footer_text_link">Mobile: 07360 025504 </a>
+						<a href="tel:0151 205 0694" class="footer_top_info_text footer_text_link">Office: 0151 205 0694</a>
+						<a href="mailto:info@alinadoors.com" class="footer_top_info_text footer_text_link">Email: info@alinadoors.com</a>
+					</div>
+					<p class="footer_top_other">Visit the contact page for further information.</p>
+				</div>
+				<div class="footer_top_4">
+					<h3 class="footer_top_4_title footer_title">Opening Times</h3>
+					<div class="footer_top_4_info footer_top_info">
+						<p class="footer_top_info_text">Mon – Fri 09.00 – 17.00</p>
+						<p class="footer_top_info_text">Sat – Closed</p>
+						<p class="footer_top_info_text">Sun– Closed</p>
+					</div>
+					<p class="footer_top_other">Office is open on a strictly pre-arranged appointment basis. Please kindly call to make an appointment.</p>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<div class="footer_bottom_left">
+					<img class="logo" src="./images/logo-black.png">
+					<a href="./term-conditions.html" class="user_agreement">Terms & Conditions</a>
+					<a href="./returns-refunds.html" class="user_agreement ret_ref">Returns & Refunds</a>
+					<a href="./privacy-cookie.html" class="priv_pol">Privacy and Cookie Policies</a>
+				</div>
+				<div class="footer_sotial">
+					<a href="https://www.ebay.co.uk/usr/alinadoors" class="footer_sotial_link footer_ebay"><img src="./images/footer_black_ebay.svg"></a><!--
+				---><a href="https://www.facebook.com/profile.php?id=61573492715128" class="footer_sotial_link footer_fb"><img src="./images/footer_black_fb.svg"></a><!--
+				---><a href="https://www.instagram.com/alinadoors.com.limited/" class="footer_sotial_link footer_inst"><img src="./images/footer_black_inst.svg"></a><!--
+				---><a href="https://www.threads.com/@alinadoors.com.limited" class="footer_sotial_link footer_threads"><img src="./images/footer_black_threads.svg"></a>
+				</div>
+			</div>
+		</footer>
+	</div> 
+</body>
+</html>
+<style type="text/css"></style>
